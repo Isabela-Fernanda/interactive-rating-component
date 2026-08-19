@@ -48,8 +48,7 @@ Além dos requisitos visuais do desafio, aproveitei o projeto para praticar conc
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-react-typescript-tailwind-css-xxxxxxxx)
-- Live Site URL: [Interactive Rating Component](https://seu-usuario.github.io/seu-repositorio/)
+- Live Site URL: [Interactive Rating Component](https://isabela-fernanda.github.io/interactive-rating-component/)
 
 ## Meu processo
 
