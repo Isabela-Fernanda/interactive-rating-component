@@ -14,7 +14,7 @@ export default function App() {
   }
 
   return (
-    <main className="h-screen flex items-center justify-center text-white-0">
+    <main className="min-h-screen flex items-center justify-center text-white-0">
       {submitted ? (
         <ThankYou rating={rating!} />
       ) : (

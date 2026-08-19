@@ -26,7 +26,7 @@ export function RatingForm({ rating, onRatingChange, onSubmit, }: RatingFormProp
                         <label key={value} className="cursor-pointer" >
                             <input type="radio" name="rating" value={value} checked={rating === value} onChange={() => onRatingChange(value)} required className="peer sr-only"/>
 
-                            <span className={`w-10.5 h-10.5 rounded-full flex items-center justify-center transition-colors ${rating === value ? "bg-white-0 text-grey-900" : "bg-grey-500/20 hover:bg-orange-500 hover:text-gray-900"} peer-focus-visible:ring-2 peer-focus-visible:ring-orange-500 lg:h-13 lg:w-13`}>
+                            <span className={`w-10.5 h-10.5 rounded-full flex items-center justify-center transition-colors ${rating === value ? "bg-white-0 text-grey-900" : "bg-grey-500/20 hover:bg-orange-500 hover:text-grey-900"} peer-focus-visible:ring-2 peer-focus-visible:ring-orange-500 lg:h-13 lg:w-13`}>
                                 {value}
                             </span>
                         </label>
